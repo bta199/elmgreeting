@@ -68,7 +68,7 @@ update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
         Name name ->
-            ( { name = name, heading = getHeading name, subtext = getQuestion }, Cmd.none )
+            ( { name = name, heading = getHeading name ++ "!", subtext = getQuestion }, Cmd.none )
 
         GetRandomName ->
             getModelWithRandomName

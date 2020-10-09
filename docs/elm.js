@@ -6158,7 +6158,7 @@ var $author$project$Main$update = F2(
 				var name = msg.a;
 				return _Utils_Tuple2(
 					{
-						s: $author$project$Main$getHeading(name),
+						s: $author$project$Main$getHeading(name) + '!',
 						t: name,
 						w: $author$project$Main$getQuestion
 					},
