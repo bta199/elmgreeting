@@ -1,0 +1,16 @@
+{
+  "name": "elm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "chokidar-cli": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "chokidar '**/*.elm' -c 'elm make src/Main.elm --output main.js' --initial"
+  },
+  "author": "",
+  "license": "ISC"
+}

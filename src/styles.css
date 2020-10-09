@@ -1,0 +1,25 @@
+.greeting {
+    font-size: 10em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtext {
+    font-size: 2em;
+    color: #514d4d;
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    margin-top: 15px;
+}
+
+.inputs > * {
+    margin-bottom: 5px;
+}
