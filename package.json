@@ -1,12 +1,12 @@
 {
-  "name": "elm",
+  "name": "elmgreeting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello world demo using Elm.",
   "main": "main.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chokidar-cli": "^2.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "chokidar '**/*.elm' -c 'elm make src/Main.elm --output main.js' --initial"
